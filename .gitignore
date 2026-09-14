@@ -1,0 +1,28 @@
+.DS_Store
+
+# Xcode local state
+DerivedData/
+build/
+*.xcuserstate
+xcuserdata/
+
+# SwiftPM
+.build/
+.swiftpm/
+
+# Secrets and local env
+.env
+.env.*
+*.pem
+*.p8
+AuthKey_*.p8
+
+# Server dependencies / runtime output
+server/node_modules/
+server/.env
+server/*.log
+
+# Temporary backups
+*.bak
+*.backup
+.tempo-backups/

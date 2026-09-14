@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_tempo-rsn._tcp</string>
+		<string>_tempo-rsn._udp</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+	</array>
+	<key>NSMotionUsageDescription</key>
+	<string>Tempo 使用运动状态(走路、跑步)来判断你是不是在运动 / 静息,这样你跑步时不会被误报为「心率偏高」。运动数据只在本机使用,不上传服务器。</string>
+</dict>
+</plist>

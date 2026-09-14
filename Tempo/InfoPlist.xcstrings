@@ -1,0 +1,91 @@
+{
+  "sourceLanguage": "zh-Hans",
+  "strings": {
+    "NSAppleMusicUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo uses your current heart rate to recommend music with a matching tempo."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo 根据你当前的心率智能推荐节奏匹配的音乐,让心律和音乐韵律保持一致。"
+          }
+        }
+      }
+    },
+    "NSHealthShareUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo reads heart rate, HRV, blood oxygen, sleep, and activity data to estimate stress and recovery. Raw records are processed on device; derived stress summaries or selected HRV values upload only after you enable sharing."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo 读取心率、心率变异性、血氧、睡眠和活动数据来计算压力与恢复。原始记录默认在设备处理;只有您主动开启联网功能后,派生压力摘要或获选的 HRV 数值才会上传。"
+          }
+        }
+      }
+    },
+    "NSHealthUpdateUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo saves completed breathing sessions to Mindful Minutes in Apple Health."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo 会把您完成的呼吸训练时长写入 Apple Health 的“正念时长”。"
+          }
+        }
+      }
+    },
+    "NSLocalNetworkUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo uses the local network to connect nearby friend devices for resonant breathing sessions."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo 通过本地网络连接附近的好友设备,实现共振呼吸训练。"
+          }
+        }
+      }
+    },
+    "NSMotionUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo uses walking and running activity to distinguish exercise from rest and avoid false high-heart-rate alerts. Motion data stays on this device."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo 使用运动状态(走路、跑步)来判断你是不是在运动 / 静息,这样你跑步时不会被误报为“心率偏高”。运动数据只在本机使用,不上传服务器。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

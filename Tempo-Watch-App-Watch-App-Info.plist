@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSHealthShareUsageDescription</key>
+	<string>Tempo 读取您的心率、心率变异性和睡眠数据来评估压力水平,所有数据仅在本地处理,不会上传。</string>
+	<key>NSHealthUpdateUsageDescription</key>
+	<string>Tempo 会把您完成的呼吸训练时长写入 Apple Health 的"正念时长"。</string>
+	<key>UIBackgroundModes</key>
+	<array/>
+	<key>WKBackgroundModes</key>
+	<array>
+		<string>workout-processing</string>
+	</array>
+</dict>
+</plist>

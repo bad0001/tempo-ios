@@ -1,0 +1,123 @@
+{
+  "identifier": "com.ayipocket.tempo.storekit",
+  "nonRenewingSubscriptions": [],
+  "products": [
+    {
+      "displayPrice": "298.00",
+      "familyShareable": false,
+      "internalID": "B0C1D2E3-F4A5-6789-ABCD-EF0123456789",
+      "localizations": [
+        {
+          "description": "Tempo Pro 终身买断,一次付费永久使用全部功能。",
+          "displayName": "Tempo Pro 终身",
+          "locale": "zh_Hans"
+        },
+        {
+          "description": "Tempo Pro Lifetime, one-time purchase, unlimited access forever.",
+          "displayName": "Tempo Pro Lifetime",
+          "locale": "en_US"
+        }
+      ],
+      "productID": "com.ayipocket.tempo.pro.lifetime",
+      "referenceName": "Tempo Pro Lifetime",
+      "type": "NonConsumable"
+    }
+  ],
+  "settings": {
+    "_applicationInternalID": "0000000000",
+    "_developerTeamID": "TL7ZJMF9VQ",
+    "_failTransactionsEnabled": false,
+    "_lastSynchronizedDate": 0,
+    "_locale": "zh_Hans_CN",
+    "_storefront": "CHN",
+    "_storeKitErrors": []
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21F4A8B6-3D1E-4B2A-9C5D-7E8F901234AB",
+      "localizations": [
+        {
+          "description": "Tempo Pro 订阅",
+          "displayName": "Tempo Pro",
+          "locale": "zh_Hans"
+        },
+        {
+          "description": "Tempo Pro Subscription",
+          "displayName": "Tempo Pro",
+          "locale": "en_US"
+        }
+      ],
+      "name": "Tempo Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "18.00",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "C2D3E4F5-A6B7-8901-CDEF-23456789ABCD",
+          "introductoryOffer": {
+            "displayPrice": "0.00",
+            "internalID": "0E50F43D-5635-4C65-9CAC-F3A8EB8225D8",
+            "numberOfPeriods": 1,
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W"
+          },
+          "localizations": [
+            {
+              "description": "Tempo Pro 月度订阅,完整功能。",
+              "displayName": "Pro 月度",
+              "locale": "zh_Hans"
+            },
+            {
+              "description": "Tempo Pro Monthly Subscription, full features.",
+              "displayName": "Pro Monthly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.ayipocket.tempo.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Tempo Pro Monthly",
+          "subscriptionGroupID": "21F4A8B6-3D1E-4B2A-9C5D-7E8F901234AB",
+          "type": "RecurringSubscription"
+        },
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "98.00",
+          "familyShareable": false,
+          "groupNumber": 2,
+          "internalID": "D3E4F5A6-B7C8-9012-DEF3-456789ABCDEF",
+          "introductoryOffer": {
+            "displayPrice": "0.00",
+            "internalID": "E4F5A6B7-C8D9-0123-EF45-6789ABCDEF01",
+            "numberOfPeriods": 1,
+            "paymentMode": "free",
+            "subscriptionPeriod": "P1W"
+          },
+          "localizations": [
+            {
+              "description": "Tempo Pro 年度订阅,首 7 天免费试用。",
+              "displayName": "Pro 年度",
+              "locale": "zh_Hans"
+            },
+            {
+              "description": "Tempo Pro Yearly Subscription, 7-day free trial.",
+              "displayName": "Pro Yearly",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.ayipocket.tempo.pro.yearly",
+          "recurringSubscriptionPeriod": "P1Y",
+          "referenceName": "Tempo Pro Yearly",
+          "subscriptionGroupID": "21F4A8B6-3D1E-4B2A-9C5D-7E8F901234AB",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 4,
+    "minor": 0
+  }
+}

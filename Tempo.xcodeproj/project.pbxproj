@@ -1,0 +1,1255 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A83D3F8E2F9E2B7900B3F422 /* Tempo Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = A83D3F6E2F9E2B7700B3F422 /* Tempo Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A83D3FA12F9E462100B3F422 /* TempoCore in Frameworks */ = {isa = PBXBuildFile; productRef = A83D3FA02F9E462100B3F422 /* TempoCore */; };
+		A83D3FA42F9E47C400B3F422 /* TempoCore in Frameworks */ = {isa = PBXBuildFile; productRef = A83D3FA32F9E47C400B3F422 /* TempoCore */; };
+		A83D3FB92F9E561700B3F422 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83D3FB82F9E561600B3F422 /* WidgetKit.framework */; };
+		A83D3FBB2F9E561700B3F422 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A83D3FBA2F9E561700B3F422 /* SwiftUI.framework */; };
+		A83D3FCA2F9E561900B3F422 /* TempoWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = A83D3FB72F9E561600B3F422 /* TempoWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A83D3FD12F9E60D500B3F422 /* TempoCore in Frameworks */ = {isa = PBXBuildFile; productRef = A83D3FD02F9E60D500B3F422 /* TempoCore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A83D3F4E2F9E229700B3F422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83D3F362F9E229600B3F422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83D3F3D2F9E229600B3F422;
+			remoteInfo = Tempo;
+		};
+		A83D3F582F9E229700B3F422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83D3F362F9E229600B3F422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83D3F3D2F9E229600B3F422;
+			remoteInfo = Tempo;
+		};
+		A83D3F7B2F9E2B7900B3F422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83D3F362F9E229600B3F422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83D3F6D2F9E2B7700B3F422;
+			remoteInfo = "Tempo Watch App Watch App";
+		};
+		A83D3F852F9E2B7900B3F422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83D3F362F9E229600B3F422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83D3F6D2F9E2B7700B3F422;
+			remoteInfo = "Tempo Watch App Watch App";
+		};
+		A83D3F8C2F9E2B7900B3F422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83D3F362F9E229600B3F422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83D3F6D2F9E2B7700B3F422;
+			remoteInfo = "Tempo Watch App Watch App";
+		};
+		A83D3FC82F9E561900B3F422 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A83D3F362F9E229600B3F422 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A83D3FB62F9E561600B3F422;
+			remoteInfo = TempoWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A83D3F922F9E2B7900B3F422 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				A83D3F8E2F9E2B7900B3F422 /* Tempo Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3FCF2F9E561900B3F422 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A83D3FCA2F9E561900B3F422 /* TempoWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A83D3F3E2F9E229600B3F422 /* Tempo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tempo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83D3F4D2F9E229700B3F422 /* TempoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83D3F572F9E229700B3F422 /* TempoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TempoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83D3F6E2F9E2B7700B3F422 /* Tempo Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tempo Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83D3F7A2F9E2B7900B3F422 /* Tempo Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tempo Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83D3F842F9E2B7900B3F422 /* Tempo Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tempo Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83D3FB72F9E561600B3F422 /* TempoWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TempoWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A83D3FB82F9E561600B3F422 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		A83D3FBA2F9E561700B3F422 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		A83D3FDA2F9E78C500B3F422 /* Tempo.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Tempo.storekit; sourceTree = "<group>"; };
+		A83D404F2F9E827700B3F422 /* TempoWidgetsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TempoWidgetsExtension.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A83D3F9B2F9E302B00B3F422 /* Exceptions for "Tempo" folder in "Tempo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A83D3F3D2F9E229600B3F422 /* Tempo */;
+		};
+		A83D3FCE2F9E561900B3F422 /* Exceptions for "TempoWidgets" folder in "TempoWidgetsExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A83D3FB62F9E561600B3F422 /* TempoWidgetsExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A83D3F402F9E229600B3F422 /* Tempo */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A83D3F9B2F9E302B00B3F422 /* Exceptions for "Tempo" folder in "Tempo" target */,
+			);
+			path = Tempo;
+			sourceTree = "<group>";
+		};
+		A83D3F502F9E229700B3F422 /* TempoTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TempoTests;
+			sourceTree = "<group>";
+		};
+		A83D3F5A2F9E229700B3F422 /* TempoUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = TempoUITests;
+			sourceTree = "<group>";
+		};
+		A83D3F6F2F9E2B7700B3F422 /* Tempo Watch App Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tempo Watch App Watch App";
+			sourceTree = "<group>";
+		};
+		A83D3F7D2F9E2B7900B3F422 /* Tempo Watch App Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tempo Watch App Watch AppTests";
+			sourceTree = "<group>";
+		};
+		A83D3F872F9E2B7900B3F422 /* Tempo Watch App Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Tempo Watch App Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		A83D3FBC2F9E561700B3F422 /* TempoWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A83D3FCE2F9E561900B3F422 /* Exceptions for "TempoWidgets" folder in "TempoWidgetsExtension" target */,
+			);
+			path = TempoWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A83D3F3B2F9E229600B3F422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83D3FA12F9E462100B3F422 /* TempoCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F4A2F9E229700B3F422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F542F9E229700B3F422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F6B2F9E2B7700B3F422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83D3FA42F9E47C400B3F422 /* TempoCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F772F9E2B7900B3F422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F812F9E2B7900B3F422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3FB42F9E561600B3F422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83D3FD12F9E60D500B3F422 /* TempoCore in Frameworks */,
+				A83D3FBB2F9E561700B3F422 /* SwiftUI.framework in Frameworks */,
+				A83D3FB92F9E561700B3F422 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A83D3F352F9E229600B3F422 = {
+			isa = PBXGroup;
+			children = (
+				A83D404F2F9E827700B3F422 /* TempoWidgetsExtension.entitlements */,
+				A83D3FDA2F9E78C500B3F422 /* Tempo.storekit */,
+				A83D3F402F9E229600B3F422 /* Tempo */,
+				A83D3F502F9E229700B3F422 /* TempoTests */,
+				A83D3F5A2F9E229700B3F422 /* TempoUITests */,
+				A83D3F6F2F9E2B7700B3F422 /* Tempo Watch App Watch App */,
+				A83D3F7D2F9E2B7900B3F422 /* Tempo Watch App Watch AppTests */,
+				A83D3F872F9E2B7900B3F422 /* Tempo Watch App Watch AppUITests */,
+				A83D3FBC2F9E561700B3F422 /* TempoWidgets */,
+				A83D3FA22F9E47C400B3F422 /* Frameworks */,
+				A83D3F3F2F9E229600B3F422 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A83D3F3F2F9E229600B3F422 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A83D3F3E2F9E229600B3F422 /* Tempo.app */,
+				A83D3F4D2F9E229700B3F422 /* TempoTests.xctest */,
+				A83D3F572F9E229700B3F422 /* TempoUITests.xctest */,
+				A83D3F6E2F9E2B7700B3F422 /* Tempo Watch App Watch App.app */,
+				A83D3F7A2F9E2B7900B3F422 /* Tempo Watch App Watch AppTests.xctest */,
+				A83D3F842F9E2B7900B3F422 /* Tempo Watch App Watch AppUITests.xctest */,
+				A83D3FB72F9E561600B3F422 /* TempoWidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A83D3FA22F9E47C400B3F422 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A83D3FB82F9E561600B3F422 /* WidgetKit.framework */,
+				A83D3FBA2F9E561700B3F422 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A83D3F3D2F9E229600B3F422 /* Tempo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83D3F612F9E229800B3F422 /* Build configuration list for PBXNativeTarget "Tempo" */;
+			buildPhases = (
+				A83D3F3A2F9E229600B3F422 /* Sources */,
+				A83D3F3B2F9E229600B3F422 /* Frameworks */,
+				A83D3F3C2F9E229600B3F422 /* Resources */,
+				A83D3F922F9E2B7900B3F422 /* Embed Watch Content */,
+				A83D3FCF2F9E561900B3F422 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83D3F8D2F9E2B7900B3F422 /* PBXTargetDependency */,
+				A83D3FC92F9E561900B3F422 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A83D3F402F9E229600B3F422 /* Tempo */,
+			);
+			name = Tempo;
+			packageProductDependencies = (
+				A83D3FA02F9E462100B3F422 /* TempoCore */,
+			);
+			productName = Tempo;
+			productReference = A83D3F3E2F9E229600B3F422 /* Tempo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A83D3F4C2F9E229700B3F422 /* TempoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83D3F642F9E229800B3F422 /* Build configuration list for PBXNativeTarget "TempoTests" */;
+			buildPhases = (
+				A83D3F492F9E229700B3F422 /* Sources */,
+				A83D3F4A2F9E229700B3F422 /* Frameworks */,
+				A83D3F4B2F9E229700B3F422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83D3F4F2F9E229700B3F422 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A83D3F502F9E229700B3F422 /* TempoTests */,
+			);
+			name = TempoTests;
+			packageProductDependencies = (
+			);
+			productName = TempoTests;
+			productReference = A83D3F4D2F9E229700B3F422 /* TempoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A83D3F562F9E229700B3F422 /* TempoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83D3F672F9E229800B3F422 /* Build configuration list for PBXNativeTarget "TempoUITests" */;
+			buildPhases = (
+				A83D3F532F9E229700B3F422 /* Sources */,
+				A83D3F542F9E229700B3F422 /* Frameworks */,
+				A83D3F552F9E229700B3F422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83D3F592F9E229700B3F422 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A83D3F5A2F9E229700B3F422 /* TempoUITests */,
+			);
+			name = TempoUITests;
+			packageProductDependencies = (
+			);
+			productName = TempoUITests;
+			productReference = A83D3F572F9E229700B3F422 /* TempoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A83D3F6D2F9E2B7700B3F422 /* Tempo Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83D3F8F2F9E2B7900B3F422 /* Build configuration list for PBXNativeTarget "Tempo Watch App Watch App" */;
+			buildPhases = (
+				A83D3F6A2F9E2B7700B3F422 /* Sources */,
+				A83D3F6B2F9E2B7700B3F422 /* Frameworks */,
+				A83D3F6C2F9E2B7700B3F422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A83D3F6F2F9E2B7700B3F422 /* Tempo Watch App Watch App */,
+			);
+			name = "Tempo Watch App Watch App";
+			packageProductDependencies = (
+				A83D3FA32F9E47C400B3F422 /* TempoCore */,
+			);
+			productName = "Tempo Watch App Watch App";
+			productReference = A83D3F6E2F9E2B7700B3F422 /* Tempo Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A83D3F792F9E2B7900B3F422 /* Tempo Watch App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83D3F932F9E2B7900B3F422 /* Build configuration list for PBXNativeTarget "Tempo Watch App Watch AppTests" */;
+			buildPhases = (
+				A83D3F762F9E2B7900B3F422 /* Sources */,
+				A83D3F772F9E2B7900B3F422 /* Frameworks */,
+				A83D3F782F9E2B7900B3F422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83D3F7C2F9E2B7900B3F422 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A83D3F7D2F9E2B7900B3F422 /* Tempo Watch App Watch AppTests */,
+			);
+			name = "Tempo Watch App Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Tempo Watch App Watch AppTests";
+			productReference = A83D3F7A2F9E2B7900B3F422 /* Tempo Watch App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A83D3F832F9E2B7900B3F422 /* Tempo Watch App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83D3F962F9E2B7900B3F422 /* Build configuration list for PBXNativeTarget "Tempo Watch App Watch AppUITests" */;
+			buildPhases = (
+				A83D3F802F9E2B7900B3F422 /* Sources */,
+				A83D3F812F9E2B7900B3F422 /* Frameworks */,
+				A83D3F822F9E2B7900B3F422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A83D3F862F9E2B7900B3F422 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A83D3F872F9E2B7900B3F422 /* Tempo Watch App Watch AppUITests */,
+			);
+			name = "Tempo Watch App Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Tempo Watch App Watch AppUITests";
+			productReference = A83D3F842F9E2B7900B3F422 /* Tempo Watch App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A83D3FB62F9E561600B3F422 /* TempoWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A83D3FCB2F9E561900B3F422 /* Build configuration list for PBXNativeTarget "TempoWidgetsExtension" */;
+			buildPhases = (
+				A83D3FB32F9E561600B3F422 /* Sources */,
+				A83D3FB42F9E561600B3F422 /* Frameworks */,
+				A83D3FB52F9E561600B3F422 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A83D3FBC2F9E561700B3F422 /* TempoWidgets */,
+			);
+			name = TempoWidgetsExtension;
+			packageProductDependencies = (
+				A83D3FD02F9E60D500B3F422 /* TempoCore */,
+			);
+			productName = TempoWidgetsExtension;
+			productReference = A83D3FB72F9E561600B3F422 /* TempoWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A83D3F362F9E229600B3F422 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2640;
+				LastUpgradeCheck = 2640;
+				TargetAttributes = {
+					A83D3F3D2F9E229600B3F422 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					A83D3F4C2F9E229700B3F422 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = A83D3F3D2F9E229600B3F422;
+					};
+					A83D3F562F9E229700B3F422 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = A83D3F3D2F9E229600B3F422;
+					};
+					A83D3F6D2F9E2B7700B3F422 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+					A83D3F792F9E2B7900B3F422 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = A83D3F6D2F9E2B7700B3F422;
+					};
+					A83D3F832F9E2B7900B3F422 = {
+						CreatedOnToolsVersion = 26.4.1;
+						TestTargetID = A83D3F6D2F9E2B7700B3F422;
+					};
+					A83D3FB62F9E561600B3F422 = {
+						CreatedOnToolsVersion = 26.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A83D3F392F9E229600B3F422 /* Build configuration list for PBXProject "Tempo" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = A83D3F352F9E229600B3F422;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A83D3F9F2F9E462100B3F422 /* XCLocalSwiftPackageReference "TempoCore" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A83D3F3F2F9E229600B3F422 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A83D3F3D2F9E229600B3F422 /* Tempo */,
+				A83D3F4C2F9E229700B3F422 /* TempoTests */,
+				A83D3F562F9E229700B3F422 /* TempoUITests */,
+				A83D3F6D2F9E2B7700B3F422 /* Tempo Watch App Watch App */,
+				A83D3F792F9E2B7900B3F422 /* Tempo Watch App Watch AppTests */,
+				A83D3F832F9E2B7900B3F422 /* Tempo Watch App Watch AppUITests */,
+				A83D3FB62F9E561600B3F422 /* TempoWidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A83D3F3C2F9E229600B3F422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F4B2F9E229700B3F422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F552F9E229700B3F422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F6C2F9E2B7700B3F422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F782F9E2B7900B3F422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F822F9E2B7900B3F422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3FB52F9E561600B3F422 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A83D3F3A2F9E229600B3F422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F492F9E229700B3F422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F532F9E229700B3F422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F6A2F9E2B7700B3F422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F762F9E2B7900B3F422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3F802F9E2B7900B3F422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A83D3FB32F9E561600B3F422 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A83D3F4F2F9E229700B3F422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83D3F3D2F9E229600B3F422 /* Tempo */;
+			targetProxy = A83D3F4E2F9E229700B3F422 /* PBXContainerItemProxy */;
+		};
+		A83D3F592F9E229700B3F422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83D3F3D2F9E229600B3F422 /* Tempo */;
+			targetProxy = A83D3F582F9E229700B3F422 /* PBXContainerItemProxy */;
+		};
+		A83D3F7C2F9E2B7900B3F422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83D3F6D2F9E2B7700B3F422 /* Tempo Watch App Watch App */;
+			targetProxy = A83D3F7B2F9E2B7900B3F422 /* PBXContainerItemProxy */;
+		};
+		A83D3F862F9E2B7900B3F422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83D3F6D2F9E2B7700B3F422 /* Tempo Watch App Watch App */;
+			targetProxy = A83D3F852F9E2B7900B3F422 /* PBXContainerItemProxy */;
+		};
+		A83D3F8D2F9E2B7900B3F422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83D3F6D2F9E2B7700B3F422 /* Tempo Watch App Watch App */;
+			targetProxy = A83D3F8C2F9E2B7900B3F422 /* PBXContainerItemProxy */;
+		};
+		A83D3FC92F9E561900B3F422 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A83D3FB62F9E561600B3F422 /* TempoWidgetsExtension */;
+			targetProxy = A83D3FC82F9E561900B3F422 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A83D3F5F2F9E229800B3F422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A83D3F602F9E229800B3F422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A83D3F622F9E229800B3F422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tempo/Tempo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tempo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Tempo 根据你当前的心率智能推荐节奏匹配的音乐,让心律和音乐韵律保持一致。";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Tempo 读取心率、心率变异性、血氧、睡眠和活动数据来计算压力与恢复。原始记录默认在设备处理;只有您主动开启联网功能后,派生压力摘要或获选的 HRV 数值才会上传。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Tempo 会把您完成的呼吸训练时长写入 Apple Health 的\"正念时长\"。";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Tempo 通过本地网络连接附近的好友设备,实现共振呼吸训练。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayipocket.tempo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A83D3F632F9E229800B3F422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Tempo/Tempo.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tempo/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "Tempo 根据你当前的心率智能推荐节奏匹配的音乐,让心律和音乐韵律保持一致。";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Tempo 读取心率、心率变异性、血氧、睡眠和活动数据来计算压力与恢复。原始记录默认在设备处理;只有您主动开启联网功能后,派生压力摘要或获选的 HRV 数值才会上传。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Tempo 会把您完成的呼吸训练时长写入 Apple Health 的\"正念时长\"。";
+				INFOPLIST_KEY_NSLocalNetworkUsageDescription = "Tempo 通过本地网络连接附近的好友设备,实现共振呼吸训练。";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayipocket.tempo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A83D3F652F9E229800B3F422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayi.TempoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tempo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tempo";
+			};
+			name = Debug;
+		};
+		A83D3F662F9E229800B3F422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayi.TempoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tempo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tempo";
+			};
+			name = Release;
+		};
+		A83D3F682F9E229800B3F422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayi.TempoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tempo;
+			};
+			name = Debug;
+		};
+		A83D3F692F9E229800B3F422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayi.TempoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Tempo;
+			};
+			name = Release;
+		};
+		A83D3F902F9E2B7900B3F422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tempo Watch App Watch App/Tempo Watch App Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tempo-Watch-App-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tempo Watch App";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Tempo 读取心率与心率变异性来计算压力并与 iPhone 同步。联网分享由您在 iPhone 的共振设置中控制。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Tempo 会把您完成的呼吸训练时长写入 Apple Health 的\"正念时长\"。";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.ayipocket.tempo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayipocket.tempo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A83D3F912F9E2B7900B3F422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tempo Watch App Watch App/Tempo Watch App Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Tempo-Watch-App-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Tempo Watch App";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "Tempo 读取心率与心率变异性来计算压力并与 iPhone 同步。联网分享由您在 iPhone 的共振设置中控制。";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "Tempo 会把您完成的呼吸训练时长写入 Apple Health 的\"正念时长\"。";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.ayipocket.tempo;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayipocket.tempo.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A83D3F942F9E2B7900B3F422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayi.Tempo-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tempo Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tempo Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A83D3F952F9E2B7900B3F422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayi.Tempo-Watch-App-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tempo Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Tempo Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A83D3F972F9E2B7900B3F422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayi.Tempo-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tempo Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		A83D3F982F9E2B7900B3F422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ayi.Tempo-Watch-App-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Tempo Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		A83D3FCC2F9E561900B3F422 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TempoWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TempoWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TempoWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Ayipocket. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayipocket.tempo.TempoWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,4";
+			};
+			name = Debug;
+		};
+		A83D3FCD2F9E561900B3F422 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TempoWidgetsExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TL7ZJMF9VQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TempoWidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TempoWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Ayipocket. All rights reserved.";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ayipocket.tempo.TempoWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator watchos watchsimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A83D3F392F9E229600B3F422 /* Build configuration list for PBXProject "Tempo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D3F5F2F9E229800B3F422 /* Debug */,
+				A83D3F602F9E229800B3F422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83D3F612F9E229800B3F422 /* Build configuration list for PBXNativeTarget "Tempo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D3F622F9E229800B3F422 /* Debug */,
+				A83D3F632F9E229800B3F422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83D3F642F9E229800B3F422 /* Build configuration list for PBXNativeTarget "TempoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D3F652F9E229800B3F422 /* Debug */,
+				A83D3F662F9E229800B3F422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83D3F672F9E229800B3F422 /* Build configuration list for PBXNativeTarget "TempoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D3F682F9E229800B3F422 /* Debug */,
+				A83D3F692F9E229800B3F422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83D3F8F2F9E2B7900B3F422 /* Build configuration list for PBXNativeTarget "Tempo Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D3F902F9E2B7900B3F422 /* Debug */,
+				A83D3F912F9E2B7900B3F422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83D3F932F9E2B7900B3F422 /* Build configuration list for PBXNativeTarget "Tempo Watch App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D3F942F9E2B7900B3F422 /* Debug */,
+				A83D3F952F9E2B7900B3F422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83D3F962F9E2B7900B3F422 /* Build configuration list for PBXNativeTarget "Tempo Watch App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D3F972F9E2B7900B3F422 /* Debug */,
+				A83D3F982F9E2B7900B3F422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A83D3FCB2F9E561900B3F422 /* Build configuration list for PBXNativeTarget "TempoWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A83D3FCC2F9E561900B3F422 /* Debug */,
+				A83D3FCD2F9E561900B3F422 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		A83D3F9F2F9E462100B3F422 /* XCLocalSwiftPackageReference "TempoCore" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = TempoCore;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A83D3FA02F9E462100B3F422 /* TempoCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = TempoCore;
+		};
+		A83D3FA32F9E47C400B3F422 /* TempoCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A83D3F9F2F9E462100B3F422 /* XCLocalSwiftPackageReference "TempoCore" */;
+			productName = TempoCore;
+		};
+		A83D3FD02F9E60D500B3F422 /* TempoCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A83D3F9F2F9E462100B3F422 /* XCLocalSwiftPackageReference "TempoCore" */;
+			productName = TempoCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A83D3F362F9E229600B3F422 /* Project object */;
+}

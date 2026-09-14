@@ -1,0 +1,24 @@
+{
+  "name": "tempo-api",
+  "version": "0.7.6",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "init-db": "node src/init-db.js",
+    "moderate": "node scripts/moderate-bottles.mjs"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.7",
+    "apn": "^2.2.0",
+    "better-sqlite3": "^11.5.0",
+    "hono": "^4.6.13",
+    "jose": "^5.9.6",
+    "nanoid": "^5.0.9"
+  }
+}

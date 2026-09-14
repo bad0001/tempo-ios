@@ -1,0 +1,40 @@
+{
+  "sourceLanguage": "zh-Hans",
+  "strings": {
+    "NSHealthShareUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo reads heart rate and HRV to estimate stress and sync with iPhone. Online sharing is controlled in Resonance Settings on iPhone."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo 读取心率与心率变异性来计算压力并与 iPhone 同步。联网分享由您在 iPhone 的共振设置中控制。"
+          }
+        }
+      }
+    },
+    "NSHealthUpdateUsageDescription": {
+      "extractionState": "manual",
+      "localizations": {
+        "en": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo saves completed breathing sessions to Mindful Minutes in Apple Health."
+          }
+        },
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "Tempo 会把您完成的呼吸训练时长写入 Apple Health 的“正念时长”。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}
