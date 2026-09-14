@@ -35,7 +35,7 @@ Hono API + SQLite
 └── Content moderation, reports and blocks
 ```
 
-Health data remains on Apple-platform storage; the backend handles the social routing required by resonance-care features.
+Raw HealthKit samples stay on the user’s Apple devices. When the user enables social features, Tempo sends the stress summaries, care events and user-generated content needed for friend sharing and Echo Coast to the backend.
 
 ## Technology
 
