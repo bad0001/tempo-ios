@@ -8,6 +8,19 @@ Tempo is an Apple-platform wellbeing app that combines Apple Watch–based stres
 
 > Tempo provides wellness insights and is not a medical diagnostic product.
 
+## Product screenshots / 产品截图
+
+<table>
+  <tr>
+    <td align="center"><b>Today / 今日</b><br><img src="docs/screenshots/tempo-today.png" width="260" alt="Tempo Today dashboard"></td>
+    <td align="center"><b>Trends / 趋势</b><br><img src="docs/screenshots/tempo-trends.png" width="260" alt="Tempo professional stress trends"></td>
+  </tr>
+  <tr>
+    <td align="center"><b>Echo Coast / 回声海岸</b><br><img src="docs/screenshots/tempo-echo-coast.png" width="260" alt="Tempo Echo Coast"></td>
+    <td align="center"><b>Profile / 我的</b><br><img src="docs/screenshots/tempo-profile.png" width="260" alt="Tempo profile and settings"></td>
+  </tr>
+</table>
+
 ## Product highlights
 
 - Stress, HRV, recovery and strain trends based on HealthKit data
